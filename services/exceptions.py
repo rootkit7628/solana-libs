@@ -1,4 +1,8 @@
-
-
 class SolanaConnectionError(Exception):
-    raise Exception("Connection error")
+    ...
+
+class SolanaRequestError(Exception):
+    ...
+
+class SolanaTransactionError(Exception):
+    ...

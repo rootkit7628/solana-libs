@@ -1,4 +1,4 @@
-# solana-libs
+# Solana-libs
 Solana testing libs
 
 ### Requirements
@@ -11,6 +11,7 @@ Solana testing libs
 ```bash
 uv python install 3.11
 uv venv --python 3.11
+source .venv/bin/activate
 uv sync
 ```
 
@@ -27,7 +28,10 @@ uv run pytest
 ```
 
 ### Running
+- Dowload your secectkey file and put it in rootfolder
+- Update main.py according to filename
+
 - Run the main.py
-```bash
-uv run main.py
-```
+    ```bash
+    uv run main.py
+    ```
